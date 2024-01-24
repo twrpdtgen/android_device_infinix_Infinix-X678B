@@ -5,4 +5,4 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-add_lunch twrp_X678B-eng
+lunch twrp_X678B-eng
