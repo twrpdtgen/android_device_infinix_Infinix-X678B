@@ -15,15 +15,10 @@ $(call inherit-product, vendor/twrp/config/common.mk)
 # Inherit from Infinix-X678B device
 $(call inherit-product, device/infinix/Infinix-X678B/device.mk)
 
-PRODUCT_DEVICE := Infinix-X678B
-PRODUCT_NAME := twrp_Infinix-X678B
+PRODUCT_DEVICE := X678B
+PRODUCT_NAME := twrp_X678B
 PRODUCT_BRAND := Infinix
-PRODUCT_MODEL := Infinix X678B
+PRODUCT_MODEL := X678B
 PRODUCT_MANUFACTURER := infinix
 
 PRODUCT_GMS_CLIENTID_BASE := android-infinix
-
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="vext_x678b_h894-user 12 SP1A.210812.016 519640 release-keys"
-
-BUILD_FINGERPRINT := Infinix/X678B-OP/Infinix-X678B:12/SP1A.210812.016/240108V2369:user/release-keys
